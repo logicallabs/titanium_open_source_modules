@@ -12,6 +12,7 @@
 {
     NSMutableArray* scrollViews;
     UIScrollView* controllingScrollView;
+    TiUIScrollViewProxy* controllingScrollViewProxy;
 }
 
 @end

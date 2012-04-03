@@ -64,6 +64,90 @@
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
     controllingScrollView = scrollView;
+    for (TiUIScrollViewProxy* proxy in scrollViews) {
+        UIScrollView* scroll = [(TiUIScrollView*)proxy.view scrollView];
+        if (scroll == controllingScrollView) {
+            controllingScrollViewProxy = proxy;
+            break;
+        }
+    }
+    CGPoint offset = [scrollView contentOffset];    
+    [controllingScrollViewProxy fireEvent:@"scrollViewWillBeginDragging" 
+                               withObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                                           NUMFLOAT(offset.x),@"x",
+                                           NUMFLOAT(offset.y),@"y",
+                                           NUMBOOL([scrollView isDecelerating]),@"decelerating",
+                                           NUMBOOL([scrollView isDragging]),@"dragging", nil]];
+
+}
+
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
+{
+    if (scrollView != controllingScrollView)
+        return;
+    CGPoint offset = [scrollView contentOffset];
+    [controllingScrollViewProxy fireEvent:@"scrollViewWillEndDragging" 
+                               withObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                                           NUMFLOAT(offset.x),@"x",
+                                           NUMFLOAT(offset.y),@"y",
+                                           NUMFLOAT(velocity.x),@"velocity_X",
+                                           NUMFLOAT(velocity.y),@"velocity_Y", 
+                                           NUMFLOAT(targetContentOffset->x),@"target_X",
+                                           NUMFLOAT(targetContentOffset->y),@"target_Y",                                           
+                                           NUMBOOL([scrollView isDecelerating]),@"decelerating",
+                                           NUMBOOL([scrollView isDragging]),@"dragging", nil]];
+}
+
+- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView
+{
+    if (scrollView != controllingScrollView)
+        return;
+    CGPoint offset = [scrollView contentOffset];
+    [controllingScrollViewProxy fireEvent:@"scrollViewDidScrollToTop" 
+                               withObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                                           NUMFLOAT(offset.x),@"x",
+                                           NUMFLOAT(offset.y),@"y",
+                                           NUMBOOL([scrollView isDecelerating]),@"decelerating",
+                                           NUMBOOL([scrollView isDragging]),@"dragging", nil]];
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView
+{
+    if (scrollView != controllingScrollView)
+        return;
+    CGPoint offset = [scrollView contentOffset];
+    [controllingScrollViewProxy fireEvent:@"scrollViewDidScrollToTop" 
+                               withObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                                           NUMFLOAT(offset.x),@"x",
+                                           NUMFLOAT(offset.y),@"y",
+                                           NUMBOOL([scrollView isDecelerating]),@"decelerating",
+                                           NUMBOOL([scrollView isDragging]),@"dragging", nil]];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    if (scrollView != controllingScrollView)
+        return;
+    CGPoint offset = [scrollView contentOffset];
+    [controllingScrollViewProxy fireEvent:@"scrollViewDidScrollToTop" 
+                               withObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                                           NUMFLOAT(offset.x),@"x",
+                                           NUMFLOAT(offset.y),@"y",
+                                           NUMBOOL([scrollView isDecelerating]),@"decelerating",
+                                           NUMBOOL([scrollView isDragging]),@"dragging", nil]];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    if (scrollView != controllingScrollView)
+        return;
+    CGPoint offset = [scrollView contentOffset];
+    [controllingScrollViewProxy fireEvent:@"dragEnd" 
+                               withObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                   NUMFLOAT(offset.x),@"x",
+                                                   NUMFLOAT(offset.y),@"y",
+                                                   NUMBOOL([scrollView isDecelerating]),@"decelerating",
+                                                   NUMBOOL([scrollView isDragging]),@"dragging", nil]];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -71,7 +155,7 @@
     // We only care about scroll events from the view that is actually being dragged by the user.
     if (scrollView != controllingScrollView)
         return;
-    
+
     for (TiUIScrollViewProxy* proxy in scrollViews)
     {
         
