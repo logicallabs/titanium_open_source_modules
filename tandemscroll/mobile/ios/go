@@ -1,5 +1,5 @@
 #!/bin/tcsh
 build.py
-cp ti.tandemscroll-iphone-1.1.zip ../../../../thomson-reuters-conference-app
+cp ti.tandemscroll-iphone-1.2.zip ../../../../thomson-reuters-conference-app
 
 

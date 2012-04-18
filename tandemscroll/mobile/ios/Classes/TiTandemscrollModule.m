@@ -116,7 +116,7 @@
     if (scrollView != controllingScrollView)
         return;
     CGPoint offset = [scrollView contentOffset];
-    [controllingScrollViewProxy fireEvent:@"scrollViewDidScrollToTop" 
+    [controllingScrollViewProxy fireEvent:@"scrollViewWillBeginDecelerating" 
                                withObject:[NSDictionary dictionaryWithObjectsAndKeys:
                                            NUMFLOAT(offset.x),@"x",
                                            NUMFLOAT(offset.y),@"y",
@@ -129,7 +129,7 @@
     if (scrollView != controllingScrollView)
         return;
     CGPoint offset = [scrollView contentOffset];
-    [controllingScrollViewProxy fireEvent:@"scrollViewDidScrollToTop" 
+    [controllingScrollViewProxy fireEvent:@"scrollViewDidEndDecelerating" 
                                withObject:[NSDictionary dictionaryWithObjectsAndKeys:
                                            NUMFLOAT(offset.x),@"x",
                                            NUMFLOAT(offset.y),@"y",
@@ -155,7 +155,7 @@
     // We only care about scroll events from the view that is actually being dragged by the user.
     if (scrollView != controllingScrollView)
         return;
-
+    
     for (TiUIScrollViewProxy* proxy in scrollViews)
     {
         

@@ -1,21 +1,5 @@
 #!/bin/tcsh
 build.py
-cp ti.opengl-iphone-2.0.zip ../phasetwo
-cp ti.opengl-iphone-2.0.zip ../example
-cp ti.opengl-iphone-2.0.zip ../cube
-cp ti.opengl-iphone-2.0.zip ../docdemo
-cp ti.opengl-iphone-2.0.zip ../bezier
-cp ti.opengl-iphone-2.0.zip ../bezier2
-cp ti.opengl-iphone-2.0.zip ../gears
-cp ti.opengl-iphone-2.0.zip ../gears2
-cp ti.opengl-iphone-2.0.zip ../RMSDemo
-cp ti.opengl-iphone-2.0.zip ../demo
-cp ti.opengl-iphone-2.0.zip ../carousel
-cp ti.opengl-iphone-2.0.zip ../../opengl_working/opengldemo
-cp ti.opengl-iphone-2.0.zip ../../opengl_working/testbed
-cp ti.opengl-iphone-2.0.zip ../../OGLImport/oglimport
-cp ti.opengl-iphone-2.0.zip ../physics
-cp ti.opengl-iphone-2.0.zip ../playground
-cp ti.opengl-iphone-2.0.zip ../import_example
+cp ti.tandemscroll-iphone-1.1.zip ../../../../thomson-reuters-conference-app
 
 
