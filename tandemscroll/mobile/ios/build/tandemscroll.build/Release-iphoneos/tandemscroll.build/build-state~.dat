@@ -1,0 +1,185 @@
+Ttandemscroll
+v4
+r1
+cCheck dependencies
+cProcessPCH /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-dcmhhrbuunrwqhblvyrbgukmrvvd/TiTandemscroll_Prefix.pch.pth TiTandemscroll_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-fdgjztthnfdqbtblmhorsvgikkln/TiTandemscroll_Prefix.pch.pth TiTandemscroll_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModuleAssets.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModule.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModule.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModuleAssets.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a" normal armv6
+cLibtool "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a" normal armv7
+cCreateUniversalBinary "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/libTiTandemscroll.a" normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F3370000000000001534
+t1316156215
+s5428
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m
+c000000004F7E13C40000000000001CD9
+t1333662660
+s7385
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m
+c000000004F75FA00000000000000010C
+t1333131776
+s268
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/TiTandemscroll_Prefix.pch
+c000000004F75FA00000000000000003E
+t1333131776
+s62
+i<Foundation/Foundation.h>
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/libTiTandemscroll.a
+t2
+s0
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscroll.LinkFileList
+c000000004F7E13F90000000000000186
+t1333662713
+s390
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModule.o
+t2
+s0
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModuleAssets.o
+t2
+s0
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a
+t2
+s0
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscroll.LinkFileList
+c000000004F7E13F90000000000000186
+t1333662713
+s390
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModule.o
+t2
+s0
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModuleAssets.o
+t2
+s0
+
+N/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a
+t2
+s0
+
+N/var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-dcmhhrbuunrwqhblvyrbgukmrvvd/TiTandemscroll_Prefix.pch.pth
+t1333219234
+s2336324
+
+N/var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-fdgjztthnfdqbtblmhorsvgikkln/TiTandemscroll_Prefix.pch.pth
+t1333219234
+s2336496
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescd94fe784b2eb541^4faed1794b2eb541^---0#1#0#--18"Check dependencies36"6D2D9E3F-B789-47B7-8C13-B26394B64FB4-
+
+CCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModule.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355355513.834953
+e355355514.579318
+r1
+xCompileC
+xbuild/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModule.o
+x/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m1900d6794b2eb541^65c2977a4b2eb541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/rms/Documents/Logical%20Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m0000000000000000^3694"CompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModule.o Classes/TiTandemscrollModule.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:.:/Users/rms/bin:/opt/local/bin:/opt/local/sbin:/usr/local/teTeX/bin/i386-apple-darwin8.6.1:/Applications/Racket/bin:/usr/local/bin:/opt/local/lib/gprolog-1.3.1/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/teTeX/bin/i386-apple-darwin-current:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-return-type -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-shorten-64-to-32 -DTI_VERSION= -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-generated-files.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-own-target-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-all-target-headers.hmap" -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-project-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include/TiCore" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources/armv6" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources" "-F/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos" -DTI_POST_1_2 -include /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-dcmhhrbuunrwqhblvyrbgukmrvvd/TiTandemscroll_Prefix.pch -MMD -MT dependencies -MF "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModule.d" -c "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m" -o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModule.o"36"979ABD9D-268D-4F2A-A48D-E57DA3628951-
+
+CCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModuleAssets.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m" normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355355513.834950
+e355355514.293162
+r1
+xCompileC
+xbuild/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModuleAssets.o
+x/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m1501d6794b2eb541^4aeb4b7a4b2eb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/rms/Documents/Logical%20Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m0000000000000000^3724"CompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModuleAssets.o Classes/TiTandemscrollModuleAssets.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:.:/Users/rms/bin:/opt/local/bin:/opt/local/sbin:/usr/local/teTeX/bin/i386-apple-darwin8.6.1:/Applications/Racket/bin:/usr/local/bin:/opt/local/lib/gprolog-1.3.1/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/teTeX/bin/i386-apple-darwin-current:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-return-type -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-shorten-64-to-32 -DTI_VERSION= -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-generated-files.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-own-target-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-all-target-headers.hmap" -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-project-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include/TiCore" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources/armv6" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources" "-F/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos" -DTI_POST_1_2 -include /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-dcmhhrbuunrwqhblvyrbgukmrvvd/TiTandemscroll_Prefix.pch -MMD -MT dependencies -MF "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModuleAssets.d" -c "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m" -o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscrollModuleAssets.o"36"21EE7FF9-9183-4901-8806-1C376000B964-
+
+CCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModule.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355355514.294452
+e355355514.793492
+r1
+xCompileC
+xbuild/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModule.o
+x/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m20984b7a4b2eb541^6134cb7a4b2eb541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/rms/Documents/Logical%20Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m0000000000000000^3694"CompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModule.o Classes/TiTandemscrollModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:.:/Users/rms/bin:/opt/local/bin:/opt/local/sbin:/usr/local/teTeX/bin/i386-apple-darwin8.6.1:/Applications/Racket/bin:/usr/local/bin:/opt/local/lib/gprolog-1.3.1/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/teTeX/bin/i386-apple-darwin-current:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-return-type -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-shorten-64-to-32 -DTI_VERSION= -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-generated-files.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-own-target-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-all-target-headers.hmap" -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-project-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include/TiCore" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources/armv7" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources" "-F/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos" -DTI_POST_1_2 -include /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-fdgjztthnfdqbtblmhorsvgikkln/TiTandemscroll_Prefix.pch -MMD -MT dependencies -MF "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModule.d" -c "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModule.m" -o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModule.o"36"10D55847-AB78-4B5C-8FC1-AAFB53A1D1B6-
+
+CCompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModuleAssets.o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355355514.584357
+e355355514.622060
+r1
+xCompileC
+xbuild/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModuleAssets.o
+x/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.mbac0957a4b2eb541^573e9f7a4b2eb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/rms/Documents/Logical%20Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m0000000000000000^3724"CompileC build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModuleAssets.o Classes/TiTandemscrollModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:.:/Users/rms/bin:/opt/local/bin:/opt/local/sbin:/usr/local/teTeX/bin/i386-apple-darwin8.6.1:/Applications/Racket/bin:/usr/local/bin:/opt/local/lib/gprolog-1.3.1/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/teTeX/bin/i386-apple-darwin-current:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-return-type -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-shorten-64-to-32 -DTI_VERSION= -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-generated-files.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-own-target-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-all-target-headers.hmap" -iquote "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/TiTandemscroll-project-headers.hmap" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/iphone/include/TiCore" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources/armv7" "-I/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/DerivedSources" "-F/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos" -DTI_POST_1_2 -include /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-fdgjztthnfdqbtblmhorsvgikkln/TiTandemscroll_Prefix.pch -MMD -MT dependencies -MF "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModuleAssets.d" -c "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/Classes/TiTandemscrollModuleAssets.m" -o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscrollModuleAssets.o"36"01DEDBFD-84F1-4FE3-A9F8-3A38B342EAEF-
+
+CCreateUniversalBinary "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/libTiTandemscroll.a" normal "armv6 armv7"
+s355355514.849391
+e355355514.928028
+r1
+xCreateUniversalBinary
+x/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/libTiTandemscroll.a
+xnormal
+xarmv6 armv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Create universal binary /Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/libTiTandemscroll.a198cd97a4b2eb541^6492ed7a4b2eb541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/rms/Documents/Logical%20Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/libTiTandemscroll.a00f4e89ddeffdf42^1159"CreateUniversalBinary build/Release-iphoneos/libTiTandemscroll.a normal "armv6 armv7"    cd "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:.:/Users/rms/bin:/opt/local/bin:/opt/local/sbin:/usr/local/teTeX/bin/i386-apple-darwin8.6.1:/Applications/Racket/bin:/usr/local/bin:/opt/local/lib/gprolog-1.3.1/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/teTeX/bin/i386-apple-darwin-current:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a" "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a" -o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos/libTiTandemscroll.a"36"0EFF2209-E63C-45BC-8098-7CCC9CEAA14F-
+
+CLibtool "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a" normal armv6
+s355355514.623330
+e355355514.635600
+r1
+xLibtool
+x/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Libtool build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a normal armv621af9f7a4b2eb541^f7c8a27a4b2eb541^---0#0#0#--1365"Libtool build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a normal armv6    cd "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:.:/Users/rms/bin:/opt/local/bin:/opt/local/sbin:/usr/local/teTeX/bin/i386-apple-darwin8.6.1:/Applications/Racket/bin:/usr/local/bin:/opt/local/lib/gprolog-1.3.1/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/teTeX/bin/i386-apple-darwin-current:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk "-L/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos" -filelist "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/TiTandemscroll.LinkFileList" -ObjC -framework Foundation -o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv6/libTiTandemscroll.a"36"0512194E-5E93-4A97-B3E5-5EE1CA39810C-
+
+CLibtool "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a" normal armv7
+s355355514.806395
+e355355514.837714
+r1
+xLibtool
+x/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Libtool build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a normal armv7508ace7a4b2eb541^5875d67a4b2eb541^---0#0#0#--1365"Libtool build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a normal armv7    cd "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:.:/Users/rms/bin:/opt/local/bin:/opt/local/sbin:/usr/local/teTeX/bin/i386-apple-darwin8.6.1:/Applications/Racket/bin:/usr/local/bin:/opt/local/lib/gprolog-1.3.1/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/teTeX/bin/i386-apple-darwin-current:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk "-L/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/Release-iphoneos" -filelist "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/TiTandemscroll.LinkFileList" -ObjC -framework Foundation -o "/Users/rms/Documents/Logical Labs/titanium_open_source_modules/tandemscroll/mobile/ios/build/tandemscroll.build/Release-iphoneos/tandemscroll.build/Objects-normal/armv7/libTiTandemscroll.a"36"FF26D7B6-E66F-496E-A82D-7972A1748B2B-
+
+CProcessPCH /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-dcmhhrbuunrwqhblvyrbgukmrvvd/TiTandemscroll_Prefix.pch.pth TiTandemscroll_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/9k/mfxljt2n2g9ghr65jbs818hm0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TiTandemscroll_Prefix-fdgjztthnfdqbtblmhorsvgikkln/TiTandemscroll_Prefix.pch.pth TiTandemscroll_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
