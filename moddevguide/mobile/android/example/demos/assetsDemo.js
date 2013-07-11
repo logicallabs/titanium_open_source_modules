@@ -4,14 +4,14 @@ var devGuide = null;
 var	imageView = null;
 
 function handleLoadModuleImage(e) {
-	var image = devGuide.loadImageFromModule('moduleimage.png');
+	var image = devGuide.loadImageFromModule('module_image.png');
 	if (image != null) {
 		imageView.image = image;		
 	}	
 }
 
 function handleLoadAppImage(e) {
-	var image = devGuide.loadImageFromApplication('applicationimage.png');
+	var image = devGuide.loadImageFromApplication('application_image.png');
 	if (image != null) {
 		imageView.image = image;
 	}			
@@ -46,14 +46,14 @@ exports.create = function(win) {
 		title: 'Load Module Image',
 		top:10,
 		width:200,
-		height:40
+		height:Ti.UI.SIZE || 'auto'
 	});
 	
 	var appImageBtn = Ti.UI.createButton({
 		title: 'Load Application Image',
 		top:10,
 		width:200,
-		height:40
+		height:Ti.UI.SIZE || 'auto'
 	});
 	
 	imageView = Ti.UI.createImageView({
